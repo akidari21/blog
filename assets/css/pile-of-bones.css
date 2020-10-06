@@ -48,6 +48,7 @@
 .dark-mode {
   --color: #ececec;
   --color-primary: #b8ec29;
+  --color-secondary: #2cc5a4;
   --bg: #011114;
   --bg-secondary: #032229;
   --border-color: #0d2538;

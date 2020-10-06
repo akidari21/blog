@@ -1,5 +1,5 @@
 export default {
-  mode: "universal",
+  // mode: "universal",
   target: "static",
   /*
    ** Headers of the page
@@ -65,7 +65,7 @@ export default {
     [
       "@nuxtjs/google-analytics",
       {
-        id: "UA-67213429-1",
+        id: "UA-179863218-1",
       },
     ],
   ],

@@ -1,65 +1,25 @@
 ---
-title: about
-seo_title: About
-preview: Nuxt Static Skeleton - a Nuxt + Netlify combination for creating static
-  websites
-seo_desc: Nuxt Static Skeleton - a Nuxt + Netlify combination for creating
-  static websites
+title: FFN이란?
+seo_title: 언론의 거짓 뉴스 판독으로 깨시민 되기
+summary: 거짓 뉴스로 나라 망하길 바라는 세력들을 솎아내는 작은 기여
+seo_desc: 거짓으로 도배된 진실을 알고 미래를 준비하는 꺠시민이 되기 위한 작은 노력
+date: 2020-09-19T03:17:57.500Z
 ---
-# Nuxt Static Skeleton.
 
-Skeleton project for creating a blog with Nuxt-Content and Netlify CMS.
+### 빅엿 거짓 뉴스('Fuck'in Fake News)를 만들면서..
 
-## What the project includes
+정치에는 관심이 없었습니다.
 
-- Home Page (custom)
-- [nuxt-content](https://content.nuxtjs.org/) powered:
-  - About Page (markdown)
-  - Contact Page (markdown)
-  - Blog Post List Page(s) (with pagination - default to 5 posts per page)
-  - Blog Post Single Page
-- Google Fonts (Header / Body Text can be defined separately)
-- [Flexbox Grid](http://flexboxgrid.com/)
-- Modified [Skeleton CSS](http://getskeleton.com/)
-- Google Analytics (Turned on by default, you can add your id in the `nuxt.config.js` file)
-- Netlify CMS for in-browser editing (at /admin) once the site is deployed
-- Interactive Editor from nuxt-content when running the dev server
-- SEO Title / Description separation for better SEO control
-- Sitemap Generation via Netlify
-- Contact form via Netlify
+다 똑같은 넘들이 짜고 치며 짬짬이 하는 영역이 바로 정치라고 지켜봤고 치부했기 때문이죠.
 
-## Notes
+지금도 의심과 추론의 사이에서 갈등하며 "관심 끊고 내 살 길이나 신경쓰자" 하는 생각이 사라지진 않습니다.
 
-Built with:
+다 젖어들어 살고 있으니 나 또한 그들과 다를 것이 무엇인가 하는 순간, 1%의 울림이 가슴에 남습니다.
 
-- [Vue](https://vuejs.org/)
-- [Nuxt](https://nuxtjs.org/)
-  - [nuxt-content](https://content.nuxtjs.org/)
-  - [nuxt-dotenv](https://github.com/nuxt-community/dotenv-module)
-  - [vue-moment](https://github.com/brockpetrie/vue-moment) - For Date formatting
-- [Skeleton CSS](http://getskeleton.com/)
-  - Adapted CSS from Skeleton and renamed it to pile-of-bones.css.  Mainly because it's a mess. :)
-- [Netlify](https://www.netlify.com/)
-  - [Netlify CMS](https://www.netlifycms.org/)
-  - [Netlify Sitemap Plugin](https://github.com/netlify-labs/netlify-plugin-sitemap)
-- [illlustrations](https://illlustrations.co/)
-- A few other packages
+바로 이 현실의 지속을 방기하는 1인의 작은 결정이 결국 우리 아이들과 후손이 살아갈
 
-## How to set up your own blog using this as a template
+미래의 암울함을 생산하는 거름이 되고 말것이라는 결론이었습니다.
 
-*To Do*
+모든 변화는 나로부터 시작하고 그 시작은 먼 미래, 나비효과로 나타날 것이니까요.
 
-1. Fork the Repository
-2. Run `npm install` to install the current dependencies
-   - Optional: Run `npm run dev` to start a local development server
-3. Link to Github. Create a new empty repo (in browser or CLI). Run `git init` to initiate a new project.  Add a remote connection (whatever URL github gave you). `git remote add origin https://github.com/[your-username]/[your-repo-name].git`.
-   - To add all files to the project, run `git add *` and `git add .env`
-   - Commit files with `git commit -m '[your message here]`
-   - To push files to github, run `git push -u origin master`
-4. Sign up for Netlify, link to your github.
-5. In netlify options,  define:
-   - build command: `npm run generate`
-   - publish directory: `dist`
-6. In Netlify Settings, go to the Identity Tab and click the 'Enable Identity' button.
-   - You *should* now be able to sign up / log in with an email. I've had issues with that configuration so I update to a Github sign-in.  You have to configure that in the 'External Providers' option. You then have to go down to 'Git Gateway' services and enable that.
-   - Configure Registration - would recommend changing Registration Preferences to 'Invite Only'. You can change that once you log in yourself.
+미약하나마 올바른 사실을 전달하는데 기여할 수 있기를 희망합니다.

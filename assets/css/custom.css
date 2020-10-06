@@ -3,10 +3,9 @@ Here are some custom CSS Styles that are currently being used by the application
 You can change / add any elements here
 */
 
-
 .title-area {
-    padding-top: 30px;
-    padding-bottom: 10px;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .page-title {
@@ -14,26 +13,25 @@ You can change / add any elements here
 }
 
 .mt0 {
-  margin-top: 0px
+  margin-top: 0px;
 }
 .mb0 {
-  margin-bottom: 0px
+  margin-bottom: 0px;
 }
 .mt10 {
-  margin-top: 10px
+  margin-top: 10px;
 }
 .mb10 {
-  margin-bottom: 10px
+  margin-bottom: 10px;
 }
 .m20 {
   margin-bottom: 20px;
   margin-top: 20px;
 }
 
-
 .home-container {
   margin: 0 auto;
-  min-height: 100vh;
+  min-height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,15 +42,16 @@ You can change / add any elements here
   min-height: 200px;
 }
 
-
 /* Filters to change SVG Icons to Theme Colors */
 /* Using the magic of: https://codepen.io/sosuke/pen/Pjoqqp */
 .icon-filter {
-  filter: invert(18%) sepia(46%) saturate(418%) hue-rotate(163deg) brightness(94%) contrast(94%);
+  filter: invert(18%) sepia(46%) saturate(418%) hue-rotate(163deg)
+    brightness(94%) contrast(94%);
 }
 
 .dark-mode .icon-filter {
-  filter: invert(99%) sepia(88%) saturate(30%) hue-rotate(178deg) brightness(113%) contrast(91%);
+  filter: invert(99%) sepia(88%) saturate(30%) hue-rotate(178deg)
+    brightness(113%) contrast(91%);
 }
 
 /* Minor change to work with Flexbox grid */
@@ -60,7 +59,6 @@ You can change / add any elements here
 .main-content .container-fluid {
   max-width: 1000px;
 }
-
 
 /* Page Transitions - 0.4s Slide/Fade */
 .page-enter-active,
@@ -83,4 +81,49 @@ You can change / add any elements here
 
 .main-content a.no-highlighter {
   background: none;
+}
+
+/* add by chaney */
+/* prism code block Theme Change */
+.token.operator {
+  background: none !important;
+}
+code,
+code[class*="language-"],
+pre[class*="language-"] {
+  text-shadow: none !important;
+  font-family: var(--body-google-font), sans-serif !important;
+  font-weight: 500;
+  font-size: 1.5rem;
+  letter-spacing: 1px !important;
+}
+.site-title {
+  font-size: 10rem;
+}
+.site-title + p {
+  margin: 3rem 0 8rem;
+}
+.home-container .no-highlighter button {
+  height: auto;
+  padding: 1rem 3rem;
+  font-size: 2.5rem;
+}
+
+img {
+  width: 100%;
+}
+
+.header li a {
+  background-color: var(--bg-secondary);
+}
+.full-word {
+  display: none;
+}
+@media (min-width: 48em) {
+  .header li a {
+    background-color: inherit;
+  }
+  .full-word {
+    display: inline;
+  }
 }

@@ -2,7 +2,9 @@
   <header class="header">
     <nuxt-link to="/" class="logo">
       <!-- Update your site logo text -->
-      Fu*k'in Fake News
+      <span class="txt-color">F</span><span class="full-word">*k'in</span>
+      <span class="txt-color">F</span><span class="full-word">ake</span>
+      <span class="txt-color">N</span><span class="full-word">ews</span>
     </nuxt-link>
     <input
       class="menu-btn"
@@ -16,20 +18,25 @@
     <ul class="menu">
       <!-- Page Links -->
       <li>
-        <nuxt-link to="/blog" @click.native="menuChecked = false"
-          >blog</nuxt-link
+        <nuxt-link to="/post" @click.native="menuChecked = false"
+          >거짓뉴스</nuxt-link
         >
       </li>
       <li>
+        <nuxt-link to="/fact" @click.native="menuChecked = false"
+          >깨시민채널</nuxt-link
+        >
+      </li>
+      <!-- <li>
         <nuxt-link to="/contact" @click.native="menuChecked = false"
-          >contact</nuxt-link
+          >후원하기</nuxt-link
         >
-      </li>
-      <li>
+      </li> -->
+      <!-- <li>
         <nuxt-link to="/about" @click.native="menuChecked = false"
-          >about</nuxt-link
+          >FFN이란?</nuxt-link
         >
-      </li>
+      </li> -->
     </ul>
   </header>
 </template>
