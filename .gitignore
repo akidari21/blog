@@ -86,3 +86,6 @@ sw.*
 
 # Vim swap files
 *.swp
+
+# 샘플 컨텐츠 
+# /content/posts/test-post-example.md
