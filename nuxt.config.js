@@ -66,6 +66,10 @@ export default {
       "@nuxtjs/google-analytics",
       {
         id: "UA-179863218-1",
+        debug: {
+          enabled: true,
+          sendHitTask: true,
+        },
       },
     ],
   ],
