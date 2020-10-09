@@ -5,7 +5,7 @@
     <div class="row between-xs m20">
       <div class="col-xs-6 start-xs">
         <span v-if="prevPg">
-          <NuxtLink v-if="prevPg == 1" :to="'/post'"> Previous Page </NuxtLink>
+          <NuxtLink v-if="prevPg == 1" :to="'/post'"> 이전 페이지 </NuxtLink>
           <NuxtLink v-else :to="'/post/page/' + prevPg"> 이전 페이지 </NuxtLink>
         </span>
         <span v-else>&nbsp;</span>
