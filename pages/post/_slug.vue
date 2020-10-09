@@ -4,7 +4,9 @@
     <article>
       <h1 class="m20">{{ article.title }}</h1>
       <p>
-        <em>{{ article.createdAt | moment("YYYY-MM-DD") }}</em>
+        <em class="post-date">{{
+          article.createdAt | moment("YYYY-MM-DD")
+        }}</em>
       </p>
       <hr />
 

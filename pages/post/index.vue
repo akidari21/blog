@@ -9,7 +9,7 @@
         </NuxtLink>
       </h3>
       <p>
-        <em>{{
+        <em class="post-date">{{
           (article.date || article.createdAt) | moment("YYYY-MM-DD")
         }}</em>
       </p>

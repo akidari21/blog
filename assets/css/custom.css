@@ -119,6 +119,10 @@ img {
 .full-word {
   display: none;
 }
+.post-date {
+  font-size: 1.6rem;
+  color: #a0a0a0;
+}
 @media (min-width: 48em) {
   .header li a {
     background-color: inherit;
