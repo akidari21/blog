@@ -80,7 +80,11 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ["@nuxt/content"],
+  modules: ["@nuxt/content", "@nuxtjs/sitemap"],
+  // sitemap
+  sitemap: {
+    hostname: "https://fuckinfakenews.netlify.app/",
+  },
   /*
    ** Build configuration
    */
